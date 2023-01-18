@@ -1,0 +1,30 @@
+{
+  "name": "states-lga-api",
+  "version": "1.0.0",
+  "description": "This is a dynamic Select dropdown of States and Local Goverments in Nigeria with search feature made with HTML, CSS & Javascript.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayWebtech/Nigeria-states-and-lga-with-dynamic-dropdown-and-search.git"
+  },
+  "keywords": [
+    "nigeria-states-lga"
+  ],
+  "author": "Jethro Adamu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JayWebtech/Nigeria-states-and-lga-with-dynamic-dropdown-and-search/issues"
+  },
+  "homepage": "https://github.com/JayWebtech/Nigeria-states-and-lga-with-dynamic-dropdown-and-search#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "morgan": "^1.10.0"
+  }
+}
