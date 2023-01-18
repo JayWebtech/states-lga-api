@@ -19,6 +19,17 @@ app.get("/", (req, res) => {
     }
 });
 
+app.get("/fetch", (req, res) => {
+    try{
+        for (let index = 0; index < Object.keys(lgaList).length; index++) {
+            //res.status(200).json({Object.values(lgaList.lgaList[state])});
+            res.send(Object.keys(lgaList.lgaList));
+        } 
+    }catch (err){
+        res.send("Error: Inavalid parameter");
+    }
+});
+
 
 app.use((req, res) => {
     res.status(404);
